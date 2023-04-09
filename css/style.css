@@ -1,0 +1,132 @@
+h1{
+	color: red;
+	background-color: skyblue;
+}
+body{
+	background-color: yellow;
+
+}
+
+p{
+	color: black;
+	border-style: solid; 
+}
+
+.p1{
+	border-width: 5px;
+	border-style: solid;
+	border-color: red;
+	border-radius: 10px;
+}
+
+#p2{
+	border: 15px dotted blue
+}
+
+input[type=checkbox] {
+  accent-color: red;
+}
+
+input[type=radio] {
+  accent-color: green;
+}
+
+input[type=range] {
+  accent-color: rgb(0, 0, 255);
+}
+
+progress {
+  accent-color: hsl(39, 100%, 50%);
+}
+
+
+.box{
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	margin: 100px auto;
+}
+
+@keyframes mymove {
+	from {left: px;}
+	to {left: 200;}
+}
+
+p{margin: 40px;
+	border: 5px solid red;
+	outline: 10px solid green;
+	outline-offset: 10px;
+}
+
+.box{
+	height: 400px;
+	width: 400px;
+	background-color: tometo;
+	margin:100px auto;
+	position: relative;
+	animation-duration: 5s;
+}
+
+@keyframes square{
+	0%{background-color: blue;}
+	25%{background-color: green;}
+	50%{background-color: tomato}
+	100%{background-color: red;}
+}
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  width: 100%;
+  height: 300px;
+}
+
+#myDIV div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+@keyframes myothermove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+@keyframes mylastmove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
